@@ -1,0 +1,62 @@
+#app-bar {
+    -webkit-box-shadow: 10px 10px 10px #333333;
+    -moz-box-shadow:    10px 10px 10px #333333;
+    box-shadow: 0 4px 8px 0 #333333;
+}
+p {
+    font-size: 16px;
+}
+.banner-container {
+    width: 100%;
+    top: 56px;
+}
+.poster {
+     width: 100%;
+}
+.film-info {
+    top: 60px;
+    margin-bottom: 20px;
+}
+#film-title {
+    float: left;
+    padding-bottom: 20px;
+}
+.age-rate {
+    width: 30px;
+    float: right;
+}
+strong {
+    font-weight: 700;
+    padding-right: 40px;
+    color: #B2DFDB;
+}
+.spec {
+    height: 60px;
+}
+.right-bar {
+
+    width: 65%;
+    float: right;
+}
+.left-bar {
+    width: 35%;
+    float: left;
+}
+.breif {
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.times {
+    width: 100%;
+    text-align: center;
+}
+.date {
+    border-top:solid 2px #009688;
+    border-bottom: solid 2px  #009688;
+    text-align: center;
+    padding: 4px;
+}
+.time-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+}
+#sidenav {
+  background: white;
+  width: 280px; 
+}
+#app-bar {
+    position: fixed;
+    top: 0;
+    height: 56px;
+    width: 100%;
+    background-color: #009688;
+}
+#menu-toggle {
+    position: fixed;
+    top: 0;
+    width: 48px;
+    height: 56px;
+}
+.menu-icon {
+    height: 56px;
+    width: 56px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+    float: left;
+    color: #fff;
+    top: 8px;
+}
+.back-icon {
+    height: 56px;
+    width: 56px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    float: right;
+    color: #fff;
+    top: 8px;
+   
+}
+#sidenav .header {
+      text-align: center;
+      height: 90px;
+      background: url("sidenav-bg.jpg") center center no-repeat;
+      background-size: cover;
+      background-color: #009688;
+}
+
+#sidenav .title {
+  margin-top: 20px;
+  color: rgba(255,255,255,0.91);
+  font-size: 1.6em;
+}
+a {
+    color: black;
+}
+
+#sidenav ul li {
+  color: #333;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+#sidenav ul li  {
+  margin-right: 10px;
+}
+#sidenav ul li.active {
+  background: #EEE;
+}
+
+
+

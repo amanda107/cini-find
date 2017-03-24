@@ -1,0 +1,177 @@
+ * {
+     margin: 0;
+     padding: 0;
+     position: relative;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     text-decoration: none;
+     color: #ececec;
+     cursor: default;
+     outline: none;
+     outline: 0;
+}
+body {
+        background-color: #404040;
+}
+
+
+
+
+
+
+
+
+
+/* options-bar */
+
+.option-bar {
+    z-index: 1;
+    position: fixed;
+    top: 56px;
+    overflow: hidden;
+    width: 100%;
+    background-color: #009688;
+    margin: 0px;
+    -webkit-box-shadow: 10px 10px 10px #333333;
+    -moz-box-shadow:    10px 10px 10px #333333;
+    box-shadow: 0 4px 8px 0 #333333;
+}
+
+/* Style the buttons inside the tab */
+.option-bar button {
+    color: #B2DFDB;
+    background-color: #009688;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2px;
+    transition: 0.3s;
+    width: 50%;
+    font-size: 20px;
+}
+
+/* Change background color of buttons on hover */
+.option-bar button:hover {
+    cursor: pointer;
+
+    border-bottom: 3px solid #009688;
+}
+
+/* Create an active/current tablink class */
+.option-bar button.active {
+    color: #fff;
+    border-bottom: 3px solid #FFC107;
+}
+
+/* Style the tab content */
+.tabcontent {
+    top: 80px; /* CHANGE ME BACL BITCH **/
+    display: none;
+    border-top: none;
+}
+/*** option-bar END ***/
+
+
+
+
+/** whats on **/
+.btn-time {
+    background-color: #4DB6AC;
+    color:#fff;
+    border-radius: 3px;
+    border-style: none; 
+    font-size: 16px;
+    width: 80px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.btn-time:hover {
+    cursor: pointer;
+    background-color: #009688;
+}
+
+
+.call-outs-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.film-container-type-2 {
+    margin: 10px;
+    flex-direction: column;
+    background-color: #737373;
+    border-radius: 3px; /* do I want this */
+    cursor: pointer;
+    -webkit-box-shadow: 10px 10px 10px #333333;
+    -moz-box-shadow:    10px 10px 10px #333333;
+    box-shadow: 0 4px 8px 0 #333333;
+    flex-basis: 48%;
+}
+.film-container-type-2:hover {
+    box-shadow: 0 8px 16px 0 #333333;  
+}
+
+.film-banner {
+    width: 100%;
+    height: auto;
+
+    position:relative;
+    background-size: cover;
+    background-position: center;
+}
+.film-name {
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #009688;
+}
+.film-info {
+    font-size: 16px;
+    padding: 10px;
+}
+.group-buttons {
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+  .call-outs-container {
+    display: flex;
+    justify-content: space-between;
+    }
+  .film-container-type-2 { 
+    flex-basis: 100%;    
+    }
+}
+
+/** coming soon **/
+.film-date {
+    margin: 10px;
+    padding-top: 10px;
+    float: left;
+}
+.btn-rm {
+    float: right;
+    background-color: #4DB6AC;
+    color:#fff;
+    border-radius: 3px;
+    border-style: none; 
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 48px;
+    margin: 10px;
+
+}
+.film-container-type-2 {
+    text-align: center;
+}

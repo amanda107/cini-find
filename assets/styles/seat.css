@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+#app-bar {
+    -webkit-box-shadow: 10px 10px 10px #333333;
+    -moz-box-shadow:    10px 10px 10px #333333;
+    box-shadow: 0 4px 8px 0 #333333;
+}
+p {
+    font-size: 16px;
+}
+.banner-container {
+    width: 100%;
+    top: 56px;
+    text-align: center;
+}
+.back-icon-seat {
+    float: left;
+    height: 56px;
+    width: 56px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #fff;
+    top: 8px;
+}
+
+
+
+
+
+
+

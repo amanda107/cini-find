@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset=utf-8>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+        <link rel="manifest" href="icons/manifest.json">
+        <link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#00897B">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#00897B">
+     
+     
+     <link href="assets/styles/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="assets/styles/sidenav.css">
+    <link rel="stylesheet" href="assets/styles/nav.css">
+  <title>CiniFind</title>
+ </head>
+ <body>
+
+     
+
+
+     
+<div id="backdrop"></div>
+    <div id="sidenav">
+      <div class="header">
+        <div class="title">CiniFind</div>
+      </div>
+      <div>
+        <ul>
+          <li class="active">
+            <a href="wo-cs.html">What's on</a>
+          </li>
+          <li>
+            <a href="location.html">Change cinema</a>
+          </li>
+          <li>
+           <a href="#">Promotions</a>    
+          </li>
+          <li>
+           <a href="#">News</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+<div id="content">
+    <div id="app-bar">
+        <div id="menu-toggle">
+            <div class="menu-icon">&#9776;</div>
+        </div>
+    </div>  
+</div>
+
+    
+
+
+ 
+ 
+<div class="option-bar">
+  <button class="tablinks" onclick="openCity(event, 'tab-1')" id="defaultOpen">What's on</button>
+  <button class="tablinks" onclick="openCity(event, 'tab-2')">Coming soon</button>
+</div>
+
+<div id="tab-1" class="tabcontent">   
+        <div class="call-outs-container">   
+            <div class="film-container-type-2">
+                    <h2 class="film-name">Kong: Skull Island</h2>
+                    <a href="kong.html"><img class="film-banner" src="assets/img/kong.jpg" alt="film poster">
+                    </a> 
+                    <a href="kong.html">
+                        <p class="film-info">Meet kong, the colossal gorilla king of Skull Island...</p> 
+                    </a>
+                <div class="group-buttons">
+                    <button class="btn-time">13:30</button>
+                    <button class="btn-time">17:30</button>
+                    <button class="btn-time">18:30</button>
+                </div>
+            </div>
+                <div class="film-container-type-2">
+                    <h2 class="film-name">Beauty and the Beast</h2>
+                    <a href="beaut.html">
+                        <img class="film-banner" src="assets/img/beaut.jpg" alt="film poster">
+                    </a>
+                    <a href="beaut.html">
+                        <p class="film-info">A story as old as time, for a new generation ...</p> 
+                    </a>    
+                <div class="group-buttons">
+                    <button class="btn-time">13:30</button>
+                    <button class="btn-time">17:30</button>
+                    <button class="btn-time">18:30</button>
+                </div>
+            </div>
+                <div class="film-container-type-2">
+                    <h2 class="film-name">Smurfs: The Lost Village</h2>
+                    <a href="smurf.html"><img class="film-banner" src="assets/img/smurf.jpg" alt="film poster">
+                    </a>    
+                    <a href="smurf.html">
+                        <p class="film-info">Smurfette and her friends search for the secret lost village ...</p>
+                    </a>    
+                <div class="group-buttons">
+                    <button class="btn-time">13:30</button>
+                    <button class="btn-time">17:30</button>
+                    <button class="btn-time">18:30</button>
+                </div>
+            </div>
+                <div class="film-container-type-2">
+                    <h2 class="film-name">Power Rangers</h2>
+                    <a href="power.html"><img class="film-banner" src="assets/img/power.jpg" alt="film poster">
+                    </a>
+                    <a href="power.html">
+                        <p class="film-info">It's morphin time! Five teens gain incredible power ...</p> 
+                    </a>
+                <div class="group-buttons">
+                    <button class="btn-time">13:30</button>
+                    <button class="btn-time">17:30</button>
+                    <button class="btn-time">18:30</button>
+                </div>
+            </div>
+        </div><!-- call-outs-container--> 
+</div><!-- whats on end -->
+
+<div id="tab-2" class="tabcontent"> <!-- coming soon -->
+    
+        <div class="call-outs-container">   
+            <div class="film-container-type-2">
+                    <h2 class="film-name">Guardians of the Galaxy VOl 2</h2>
+                    <img class="film-banner" src="assets/img/galaxy.jpg" alt="film poster">
+                    <h2 class="film-date">28/04/2017</h2> 
+                    <button class="btn-rm">Remind me</button>
+             
+            </div>
+                <div class="film-container-type-2">
+                    <h2 class="film-name">King Authur</h2>
+                    <img class="film-banner" src="assets/img/authur.jpg" alt="film poster">
+                    <h2 class="film-date">12/05/2017</h2> 
+                    <button class="btn-rm">Remind me</button> 
+                </div>
+               <div class="film-container-type-2">
+                    <h2 class="film-name">Table 19</h2>
+                    <img class="film-banner" src="assets/img/table.jpg" alt="film poster">
+                    <h2 class="film-date">12/05/2017</h2> 
+                    <button class="btn-rm">Remind me</button> 
+                </div>  
+        </div><!-- call-outs-container--> 
+</div><!-- coming soon close -->
+    
+    
+    
+    
+    
+ 
+<script src="assets/script/sidenav.min.js"></script>
+<script src="assets/script/nav.js"></script>   
+<script type="text/javascript" src="assets/script/tabs.js"></script> 
+
+ </body>
+<footer>
+</footer>
+
+    
+   
+</html>
