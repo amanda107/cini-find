@@ -22,8 +22,7 @@ p {
     padding-bottom: 20px;
 }
 .age-rate {
-    width: 30px;
-    float: right;
+    width: 40px;
 }
 strong {
     font-weight: 700;
@@ -34,12 +33,11 @@ strong {
     height: 60px;
 }
 .right-bar {
-
-    width: 65%;
+    width: 60%;
     float: right;
 }
 .left-bar {
-    width: 35%;
+    width: 40%;
     float: left;
 }
 .breif {
