@@ -15,14 +15,6 @@ body {
         background-color: #404040;
 }
 
-
-
-
-
-
-
-
-
 /* options-bar */
 
 .option-bar {
@@ -81,7 +73,7 @@ body {
     background-color: #4DB6AC;
     color:#fff;
     border-radius: 3px;
-    border-style: none; 
+    border-style: none;
     font-size: 16px;
     width: 80px;
     padding-right: 10px;
@@ -99,7 +91,7 @@ body {
 
 .call-outs-container {
     max-width: 1400px;
-    margin: 40px auto 0 auto; 
+    margin: 40px auto 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -116,7 +108,7 @@ body {
     flex-basis: 48%;
 }
 .film-container-type-2:hover {
-    box-shadow: 0 8px 16px 0 #333333;  
+    box-shadow: 0 8px 16px 0 #333333;
 }
 
 .film-banner {
@@ -148,8 +140,8 @@ body {
     display: flex;
     justify-content: space-between;
     }
-  .film-container-type-2 { 
-    flex-basis: 100%;    
+  .film-container-type-2 {
+    flex-basis: 100%;
     }
 }
 
@@ -164,7 +156,7 @@ body {
     background-color: #4DB6AC;
     color:#fff;
     border-radius: 3px;
-    border-style: none; 
+    border-style: none;
     font-size: 16px;
     padding-right: 10px;
     padding-left: 10px;

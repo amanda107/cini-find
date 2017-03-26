@@ -1,5 +1,21 @@
 * {
-    box-sizing: border-box;
+box-sizing:  border-box;
+}
+.back-icon-seat {
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+    font-size: 40px;
+}
+.title {
+    font-size: 30px;
+    top: 56px;
+    text-align: center;
+    color: #fff;
+}
+main {
+   margin: 5px;
+    z-index: 1;
 }
 #app-bar {
     -webkit-box-shadow: 10px 10px 10px #333333;
@@ -9,25 +25,45 @@
 p {
     font-size: 16px;
 }
-.banner-container {
-    width: 100%;
-    top: 56px;
-    text-align: center;
+
+.seat-container {
+    z-index: 1;
+    top: 90px;
+    padding: 10px;
 }
-.back-icon-seat {
+
+.seat-container li {
+     z-index: 1;
+    display: block;
     float: left;
-    height: 56px;
-    width: 56px;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 30px;
-    color: #fff;
-    top: 8px;
+    width: 11%;
 }
-
-
-
-
-
-
-
+.path {
+    width: 30px;
+    height: 30px;
+}
+.btn-seat {
+    z-index: 1;
+    width: 30px;
+    height:30px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #4DB6AC;
+    margin: 5px;
+    text-align: center;
+}
+.btn-seat:after{
+    background-color: #009688;
+}
+.btn-seat-posh {
+    z-index: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: orange;
+}
+img {
+    width: 25px;
+    height: 25px;
+    
+}
