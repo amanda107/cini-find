@@ -15,12 +15,49 @@ body {
         background-color: #404040;
 }
 
+
+
+/* Navigation */
+.nav {
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    list-style: none;
+    margin: 0;
+    background: #009688;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    z-index: 99;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+}
+
+.nav li {
+    text-align: center;
+    min-width: 25%;
+}
+.nav-icon {
+    width: 56px;
+}
+#active {
+        border-bottom: 3px solid #FFC107;
+}
+
+
 /* options-bar */
 
 .option-bar {
     z-index: 1;
     position: fixed;
-    top: 56px;
+    top: 55px;
     overflow: hidden;
     width: 100%;
     background-color: #009688;
@@ -59,111 +96,45 @@ body {
 
 /* Style the tab content */
 .tabcontent {
-    top: 80px; /* CHANGE ME BACL BITCH **/
+    top: 100px;
     display: none;
     border-top: none;
+    margin: 20px;
 }
 /*** option-bar END ***/
 
-
-
-
-/** whats on **/
-.btn-time {
-    background-color: #4DB6AC;
-    color:#fff;
-    border-radius: 3px;
-    border-style: none;
-    font-size: 16px;
-    width: 80px;
-    padding-right: 10px;
-    padding-left: 10px;
-    height: 48px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-}
-.btn-time:hover {
-    cursor: pointer;
-    background-color: #009688;
-}
-
-
-.call-outs-container {
-    max-width: 1400px;
-    margin: 40px auto 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.film-container-type-2 {
-    margin: 10px;
-    flex-direction: column;
-    background-color: #737373;
-    border-radius: 3px; /* do I want this */
-    cursor: pointer;
-    -webkit-box-shadow: 10px 10px 10px #333333;
-    -moz-box-shadow:    10px 10px 10px #333333;
-    box-shadow: 0 4px 8px 0 #333333;
-    flex-basis: 48%;
-}
-.film-container-type-2:hover {
-    box-shadow: 0 8px 16px 0 #333333;
-}
-
-.film-banner {
+.film-container {
     width: 100%;
-    height: auto;
-
-    position:relative;
-    background-size: cover;
-    background-position: center;
+    background-color: #737373;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
 }
-.film-name {
+.film-title {
+    text-align: center;
     font-size: 24px;
     padding: 10px;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    width: 100%;
     background-color: #009688;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
-.film-info {
-    font-size: 16px;
-    padding: 10px;
+.film-banner {
+    width: 100%;
 }
-.group-buttons {
+.film-intro {
     text-align: center;
 }
-
-@media (max-width: 900px) {
-  .call-outs-container {
-    display: flex;
-    justify-content: space-between;
-    }
-  .film-container-type-2 {
-    flex-basis: 100%;
-    }
+.times {
+    text-align: center;
 }
-
-/** coming soon **/
-.film-date {
+.btn-time {
+    box-sizing: border-box;
     margin: 10px;
-    padding-top: 10px;
-    float: left;
-}
-.btn-rm {
-    float: right;
-    background-color: #4DB6AC;
-    color:#fff;
-    border-radius: 3px;
-    border-style: none;
-    font-size: 16px;
-    padding-right: 10px;
-    padding-left: 10px;
+    font-size: 18px;
     height: 48px;
-    margin: 10px;
-
-}
-.film-container-type-2 {
-    text-align: center;
+    padding: 10px;
+    background-color: #009688;
+    border-radius: 5px;
+    border-style: none;
 }

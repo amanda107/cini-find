@@ -1,69 +1,75 @@
 * {
 box-sizing:  border-box;
 }
-.back-icon-seat {
-    width: 100%;
-    color: #fff;
-    padding: 10px;
-    font-size: 40px;
+body {
+    background-color: green;
 }
 .title {
     font-size: 30px;
     top: 56px;
     text-align: center;
-    color: #fff;
-}
-main {
-   margin: 5px;
-    z-index: 1;
-}
-#app-bar {
-    -webkit-box-shadow: 10px 10px 10px #333333;
-    -moz-box-shadow:    10px 10px 10px #333333;
-    box-shadow: 0 4px 8px 0 #333333;
-}
-p {
-    font-size: 16px;
+    color: green;
 }
 
-.seat-container {
-    z-index: 1;
-    top: 90px;
-    padding: 10px;
+
+
+
+
+
+
+
+
+
+table, td, th {
+    border: 1px solid clear;
 }
 
-.seat-container li {
-     z-index: 1;
-    display: block;
-    float: left;
-    width: 11%;
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+
+.checkbox-custom {
+    opacity: 0;
+    position: absolute; 
+
+}
+
+.checkbox-custom, .checkbox-custom-label {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.checkbox-custom-label {
+    position: relative;
+}
+
+.checkbox-custom + .checkbox-custom-label:before {
+    content: '';
+    background: #FFC107;
+    border: 4px solid #FFC107;
+    display: inline-block;
+    vertical-align: middle;
+    width: 48px;
+    height: 48px;
+    padding: 2px;
+
+    text-align: center;
+    border-radius: 5px;
+}
+
+.checkbox-custom:checked + .checkbox-custom-label:before {
+    background: #FFA000;
 }
 .path {
-    width: 30px;
-    height: 30px;
-}
-.btn-seat {
-    z-index: 1;
-    width: 30px;
-    height:30px;
-    border-radius: 5px;
-    border-style: none;
-    background-color: #4DB6AC;
-    margin: 5px;
-    text-align: center;
-}
-.btn-seat:after{
-    background-color: #009688;
-}
-.btn-seat-posh {
-    z-index: 1;
-    padding: 5px;
-    border-radius: 5px;
-    border-style: none;
-    background-color: orange;
-}
-img {
-    width: 25px;
-    height: 25px;
-    
+    width: 40px;
+    height: 40px;
 }
