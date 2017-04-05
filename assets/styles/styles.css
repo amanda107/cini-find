@@ -45,7 +45,8 @@ body {
     min-width: 25%;
 }
 .nav-icon {
-    width: 56px;
+    margin: 3px;
+    width: 48px;
 }
 #active {
         border-bottom: 3px solid #FFC107;
@@ -65,6 +66,7 @@ body {
     -webkit-box-shadow: 10px 10px 10px #333333;
     -moz-box-shadow:    10px 10px 10px #333333;
     box-shadow: 0 4px 8px 0 #333333;
+    height: 40px;
 }
 
 /* Style the buttons inside the tab */
@@ -79,6 +81,7 @@ body {
     transition: 0.3s;
     width: 50%;
     font-size: 20px;
+    height: 40px;
 }
 
 /* Change background color of buttons on hover */
@@ -109,6 +112,9 @@ body {
     border-radius: 5px;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    -webkit-box-shadow: 10px 10px 10px #222;
+    -moz-box-shadow:    10px 10px 10px #222;
+    box-shadow: 0 4px 8px 0 #222;
 }
 .film-title {
     text-align: center;
@@ -134,6 +140,7 @@ body {
     font-size: 18px;
     height: 48px;
     padding: 10px;
+    text-align: center;
     background-color: #009688;
     border-radius: 5px;
     border-style: none;
