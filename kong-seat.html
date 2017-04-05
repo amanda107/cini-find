@@ -33,34 +33,15 @@
  <body>
 
 
-<div id="backdrop"></div>
-    <div id="sidenav">
-      <div class="header">
-        <div class="title">CiniFind</div>
-      </div>
-      <div>
-        <ul>
-          <li class="active">
-            <a href="wo-cs.html">What's on</a>
-          </li>
-          <li>
-            <a href="location.html">Change cinema</a>
-          </li>
-          <li>
-           <a href="#">Promotions</a>
-          </li>
-          <li>
-           <a href="#">News</a>
-          </li>
-
-        </ul>
-      </div>
-    </div><!--nav -->
-<div id="content">
-    <div id="app-bar">
-        <a href="kong.html" class="back-icon-seat">&#8592;</a>
-    </div> <!-- app-bar -->
-</div><!-- appdrawer -->
+     
+<nav role="navigation">
+     <ul class="nav">
+         <li><a href="wo-cs.html"><img class="nav-icon" src="assets/img/home.svg" alt="whats on and coming soon"></a></li>
+         <li><a href="#loc"><img class="nav-icon" src="assets/img/location.svg" alt="find your local cinema"></a></li>
+         <li><a href="#promotions"><img class="nav-icon" src="assets/img/prom.svg" alt="promotions"></a></li>
+         <li><a href="#news"><img class="nav-icon" src="assets/img/news.svg" alt="film news"></a></li>
+     </ul>
+ </nav>
 
 
 
@@ -71,128 +52,89 @@
     <h1 class="title">Pick Your Seats</h1>
 </header>
 
-<div class="seat-container">
-    <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
 
-    <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-  <li> <button class="btn-seat-posh" type="button" name="button"></button></li>
-
-    <li><div class="path"></div></li>
-    <li><div class="path"></div></li>
-    <li><div class="path"></div></li>
-    <li><div class="path"></div></li>
-    <li><div class="path"></div></li>
-    <li><div class="path"></div></li>
-    <li><div class="path"></div></li>
-    <li><div class="path"></div></li>
-    <li><div class="path"></div></li>
-
-
-
-      <div>
-        <input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked>
-        <label for="checkbox-1" class="checkbox-custom-label">First Choice</label>
-    </div>
-    <div>
-        <input id="checkbox-2" class="checkbox-custom" name="checkbox-2" type="checkbox">
-        <label for="checkbox-2" class="checkbox-custom-label">Second Choice</label>
-    </div>
-    <div>
-        <input id="checkbox-3" class="checkbox-custom" name="checkbox-3" type="checkbox">
-        <label for="checkbox-3"class="checkbox-custom-label">Third Choice</label>    
-    </div>
-        <li><div class="path"></div></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
+<table class="seat-container">
+    <tr>
+        <td>  
+            <input id="checkbox-1" class="checkbox-custom" name="a1" type="checkbox">
+            <label for="checkbox-1"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-2" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-2"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-3" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-3"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-4" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-4"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-5" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-5"class="checkbox-custom-label"></label> 
+        </td> 
+        <td>  
+            <input id="checkbox-6" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-6"class="checkbox-custom-label"></label> 
+        </td>         
+    </tr>
+    <tr>
+        <td>  
+            <input id="checkbox-b1" class="checkbox-custom" name="b1" type="checkbox">
+            <label for="checkbox-b1"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-b2" class="checkbox-custom" name="b2" type="checkbox">
+            <label for="checkbox-b2"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-b3" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-b3"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-b4" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-b4"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-b5" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-b5"class="checkbox-custom-label"></label> 
+        </td> 
+        <td>  
+            <input id="checkbox-b6" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-b6"class="checkbox-custom-label"></label> 
+        </td>         
+    </tr>
+  <tr>
+        <td>  
+            <input id="checkbox-c1" class="checkbox-custom" name="b1" type="checkbox">
+            <label for="checkbox-c1"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-c2" class="checkbox-custom" name="b2" type="checkbox">
+            <label for="checkbox-c2"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-c3" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-c3"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-c4" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-c4"class="checkbox-custom-label"></label>    
+        </td>
+        <td>  
+            <input id="checkbox-c5" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-c5"class="checkbox-custom-label"></label> 
+        </td> 
+        <td>  
+            <input id="checkbox-c6" class="checkbox-custom" name="checkbox" type="checkbox">
+            <label for="checkbox-c6"class="checkbox-custom-label"></label> 
+        </td>         
+    </tr>
     
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-        <li><div class="path"></div></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
     
-     <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-        <li><div class="path"></div></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-        <li><div class="path"></div></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-        <li><div class="path"></div></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-
-     <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-        <li><div class="path"></div></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-        <li><div class="path"></div></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    
-       <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-        <li><div class="path"></div></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>  
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-    <li><input id="checkbox-1" class="checkbox-custom" name="checkbox-1" type="checkbox" checked></li>
-</div>
-
+</table>    
    
 </main>
 

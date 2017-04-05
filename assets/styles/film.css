@@ -6,6 +6,7 @@
 p {
     font-size: 16px;
 }
+
 .banner-container {
     width: 100%;
     top: 56px;
@@ -20,6 +21,7 @@ p {
 #film-title {
     float: left;
     padding-bottom: 20px;
+    margin-left: 10px;
 }
 .age-rate {
     width: 40px;
@@ -31,6 +33,7 @@ strong {
 }
 .spec {
     height: 60px;
+    margin:10px;
 }
 .right-bar {
     width: 60%;
