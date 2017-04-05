@@ -54,7 +54,6 @@ body {
 
 
 /* options-bar */
-
 .option-bar {
     z-index: 1;
     position: fixed;
@@ -102,7 +101,7 @@ body {
     top: 100px;
     display: none;
     border-top: none;
-    margin: 20px;
+    margin: 10px;
 }
 /*** option-bar END ***/
 
