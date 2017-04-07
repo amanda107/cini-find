@@ -72,5 +72,5 @@ td {
 }
 
 .checkbox-custom2:checked + .checkbox-custom-label:before {
-    background: #FFA000;
+    background: #005a51;
 }
