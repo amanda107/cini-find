@@ -130,6 +130,21 @@ body {
 .film-intro {
     text-align: center;
 }
+.film-date {
+    text-align: center;
+}
+.btn-remind {
+    box-sizing: border-box;
+    margin: 10px;
+    font-size: 18px;
+    height: 48px;
+    padding: 10px;
+    text-align: center;
+    background-color: #009688;
+    border-radius: 5px;
+    border-style: none;
+    
+}
 .times {
     text-align: center;
 }

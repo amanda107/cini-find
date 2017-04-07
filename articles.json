@@ -1,15 +1,16 @@
 [
-	{
-        "header" : "Beauty and The Beast",
-		"image" : "assets/img/beaut.jpg",
-		"subheader" : "A story as old as time for a new generation ...",
-		"article" : ""        
-    },
+
     
     {
         "header" : "Power Rangers",
 		"image" : "assets/img/power.jpg",
 		"subheader" : "It's morphin time! Five teens gain incredible power ...",
+		"article" : ""        
+    },
+    {
+        "header" : "Beauty and The Beast",
+		"image" : "assets/img/beaut.jpg",
+		"subheader" : "A story as old as time for a new generation ...",
 		"article" : ""        
     },
     
