@@ -16,7 +16,6 @@ fetch("articles.json")
     }).then(articles => {
         const articlesHTML = articles.map(article => {
             return `<li><a href="#">
-		
             
 
 <div class="film-container"><!-- power rangers -->
@@ -28,11 +27,7 @@ fetch("articles.json")
             <button class="btn-time">17:30</button>
             <button class="btn-time">19:30</button>
         </div>
-</div>`;// beauty and beast
-            
-
-            
-            
+    </div>`;
             
         }).join("\n");
         const articlesContainer = document.getElementById('articles');
