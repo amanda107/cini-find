@@ -15,7 +15,7 @@ fetch("articles.json")
         return response.json();
     }).then(articles => {
         const articlesHTML = articles.map(article => {
-            return `<li><a href="#">
+            return `
             
 
 <div class="film-container"><!-- power rangers -->
