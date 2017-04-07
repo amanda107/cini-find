@@ -1,12 +1,6 @@
 [
 
-       {
-        "header" : "Kong: Skull Island",
-		"image" : "assets/img/kong.jpg",
-		"subheader" : "Meet Kong, colossal gorilla king of skull island...",
-        "href" : "kong",
-		"article" : ""        
-    },
+    
     {
         "header" : "Power Rangers",
 		"image" : "assets/img/power.jpg",
@@ -28,7 +22,7 @@
 		"subheader" : "Surfette and her friends search for the secret lost village...",
         "href" : "smurf.html",
 		"article" : ""        
-    },
+    }, 
     
     {
         "header" : "Kong: Skull Island",
