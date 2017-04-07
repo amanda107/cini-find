@@ -29,7 +29,7 @@
   <title>CiniFind</title>
  </head>
  <body>
-
+<div id="articles">
 
 <div class="option-bar">
   <button class="tablinks" onclick="tabSwitch(event, 'tab-1')" id="defaultOpen">What's on</button>
@@ -106,7 +106,7 @@
                 </div>  
 
 </div><!-- coming soon close -->
-
+</div><!-- article id -->
 <nav role="navigation">
      <ul class="nav">
          <li><a href="wo-cs.html"><img class="nav-icon" src="assets/img/home-a.svg" alt="whats on and coming soon"></a></li>
@@ -116,15 +116,7 @@
      </ul>
  </nav><!-- nav -->
 
- <script>
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('serviceworker.js').then(function(registration) {
-          console.log('Service worker registered successfully');
-        }).catch(function(err) {
-          console.log('Service worker registration failed: ', err);
-        });
-      }
-</script>
+ <script type="text/javascript" src="scripts,js"></script>
 <script type="text/javascript" src="assets/script/tabs.js"></script>
 <script type="text/javascript" src="serviceworker.js"></script>
 
