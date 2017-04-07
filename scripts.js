@@ -20,6 +20,18 @@ fetch("articles.json")
 				<h2>${article.header}</h2>
 				<p>${article.subheader}</p>
 				</a></li>`;
+            
+            <div class="film-container"><!-- power rangers -->
+        <a href="power.html"><h2 class="film-title">${article.header}</h2></a>
+        <a href="power.html"><img class="film-banner"src="${article.image}" alt="power rangers poster"/></a>
+        <a href="power.html"><p class="film-intro">${article.subheader</p></a>
+        <div class="times">
+            <button class="btn-time">14:30</button>
+            <button class="btn-time">17:30</button>
+            <button class="btn-time">19:30</button>
+        </div>
+    </div>
+            
         }).join("\n");
         const articlesContainer = document.getElementById('articles');
         articlesContainer.innerHTML = articlesHTML;
