@@ -1,8 +1,8 @@
 var CACHE_NAME = 'ln-cache';
 var CACHED_URLS = [
   'offline.html',
+  'assets/script/tabs.js',    
   'assets/styles/styles.css',
-    'https://fonts.googleapis.com/css?family=Roboto',
     'assets/img/authur.jpg',
     'assets/img/beaut.jpg',
     'assets/img/galaxy.jpg',
