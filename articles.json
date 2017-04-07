@@ -5,12 +5,14 @@
         "header" : "Power Rangers",
 		"image" : "assets/img/power.jpg",
 		"subheader" : "It's morphin time! Five teens gain incredible power ...",
-		"article" : ""        
+        "href" : "power.html",
+		"article" : ""
     },
     {
         "header" : "Beauty and The Beast",
-		"image" : "assets/img/beaut2.jpg",
+		"image" : "assets/img/beaut.jpg",
 		"subheader" : "A story as old as time for a new generation ...",
+        "href" : "beaut.html",
 		"article" : ""        
     },
     
@@ -18,6 +20,7 @@
         "header" : "Smurfs: The Lost Village",
 		"image" : "assets/img/smurf.jpg",
 		"subheader" : "Surfette and her friends search for the secret lost village...",
+        "href" : "smurf.html",
 		"article" : ""        
     }, 
     
@@ -25,6 +28,7 @@
         "header" : "Kong: Skull Island",
 		"image" : "assets/img/kong.jpg",
 		"subheader" : "Meet Kong, colossal gorilla king of skull island...",
+        "href" : "kong",
 		"article" : ""        
     }    
 ]
