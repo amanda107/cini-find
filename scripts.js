@@ -16,11 +16,7 @@ fetch("articles.json")
     }).then(articles => {
         const articlesHTML = articles.map(article => {
             return `<li><a href="#">
-				<img src="${article.image}" alt="Image of ${article.header}" />
-				<h2>${article.header}</h2>
-				<p>${article.subheader}</p>
-				</a></li>
-            
+		
             
 
 <div class="film-container"><!-- power rangers -->
@@ -32,7 +28,11 @@ fetch("articles.json")
             <button class="btn-time">17:30</button>
             <button class="btn-time">19:30</button>
         </div>
-    </div>`;
+</div>`;// beauty and beast
+            
+
+            
+            
             
         }).join("\n");
         const articlesContainer = document.getElementById('articles');
