@@ -33,3 +33,7 @@ fetch("articles.json")
         const articlesContainer = document.getElementById('articles');
         articlesContainer.innerHTML = articlesHTML;
     });
+
+
+
+

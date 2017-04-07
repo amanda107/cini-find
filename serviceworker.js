@@ -7,7 +7,6 @@ var CACHED_URLS = [
     'assets/img/beaut.jpg',
     'assets/img/galaxy.jpg',
     'assets/img/kong.jpg',
-    'assets/img/moana.jpg',
     'assets/img/power.jpg',
     'assets/img/smurf.jpg',
     'assets/img/home-a.svg',
@@ -38,3 +37,5 @@ self.addEventListener('fetch', function(event) {
     })
   );
 });
+
+
