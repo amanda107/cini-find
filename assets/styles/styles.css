@@ -177,6 +177,7 @@ body {
     height: 48px;
     width: 48px;
     right: 10px;
+    bottom: 20px;
     background-color: #FFB300;
     text-align: center;
     border-radius: 100%;
@@ -187,4 +188,5 @@ body {
     -webkit-box-shadow: 10px 10px 10px #333333;
     -moz-box-shadow:    10px 10px 10px #333333;
     box-shadow: 0 4px 8px 0 #333333;
+      z-index: 99;
 }
