@@ -4,29 +4,17 @@ box-sizing:  border-box;
 
 .title {
     font-size: 24px;
-    top: px;
+    top: 60px;
     text-align: center;
+
 }
 
-
-
-
-.premium-seats {
-    top: 70px;
-    border-collapse: collapse;
-    margin: 3px;
-    margin-left: auto;
-    margin-right: auto;  
-}
 
 table, td, th {
+    top: 35px;
     border: 3px solid clear;
-    text-align: center;
-
-    
+    text-align: center;    
 }
-
-
 th {
     text-align: center;
 }
@@ -35,57 +23,15 @@ td {
     width: 43px;
 }
 
-
-
-
-
-.checkbox-premium {
-    opacity: 0;
-    position: absolute;
-}
-
-.checkbox-premium, .checkbox-premium-label {
-    display: inline-block;
-    vertical-align: middle;
-    cursor: pointer;
-}
-
-.checkbox-custom-label2 {
-    position: relative;
-}
-
-.checkbox-premium + .checkbox-premium-label:before {
-    content: '';
-    background: #FFC107;
-    border: 2px solid #FFC107;
-    display: inline-block;
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    border-radius: 5px;
-}
-
-.checkbox-premium:checked + .checkbox-premium-label:before {
-    background: #FF8F00;
-}
-
-/** green seats, light colour #009688; indented colour #005a51; **/
-
-
-
 .checkbox-normal {
     opacity: 0;
     position: absolute;
 }
-
-/** green seats, light colour #009688; indented colour #005a51; **/
 .checkbox-normal, .checkbox-normal-label {
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
 }
-
 .checkbox-normal + .checkbox-normal-label:before {
     content: '';
     background: #009688;
@@ -97,7 +43,6 @@ td {
     text-align: center;
     border-radius: 5px;
 }
-
 .checkbox-normal:checked + .checkbox-normal-label:before {
     background: #005a51;  
 }

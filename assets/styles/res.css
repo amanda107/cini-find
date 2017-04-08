@@ -1,0 +1,86 @@
+.banner-container {
+    width: 100%;
+    top: 56px;
+}
+.poster {
+    width: 100%;
+}
+#container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+{
+    width: 100%;
+    top: 48px;
+}
+#res-title {
+    top: 70px;
+    text-align: center;
+}
+/* .form-container {
+    background-color: yellow;
+    height: 50px;
+    padding: 10px;
+    top: 80px;
+}
+
+.form-icon {
+    width: 40px;
+    float: left;
+}
+input {
+    background-color: #404040;
+    border-bottom: solid 2px #009688;
+    border-top: none;
+    border-right: none;
+    border-left: solid 2px #009688;
+    width: 80%;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 10px;
+    float: right;
+} */
+
+
+
+
+
+
+
+.form-container {
+    max-width: 1400px;
+    margin: 10px;
+    display: flex;
+    top: 70px;
+    height: 40px;
+}
+.form-el {
+    flex: 1;
+    order: 1;
+ 
+}
+.form-ll {
+    flex: 5;
+    order: 2;
+}
+
+.form-icon {
+    width: 40px;
+    flex: 1;
+}
+input {
+    height: 40px;
+    background-color: #404040;
+    border-bottom: solid 2px #009688;
+    border-top: none;
+    border-right: none;
+    border-left: solid 2px #009688;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+
+
+
+

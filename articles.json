@@ -28,7 +28,7 @@
         "header" : "Kong: Skull Island",
 		"image" : "assets/img/kong.jpg",
 		"subheader" : "Meet Kong, colossal gorilla king of skull island...",
-        "href" : "kong",
+        "href" : "kong.html",
 		"article" : ""        
     }    
 ]

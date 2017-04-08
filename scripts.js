@@ -18,9 +18,9 @@ fetch("articles.json")
             return `
             
 
-<div class="film-container"><!-- power rangers -->
+<div class="film-container"><!-- film -->
         <a href="${article.href}"><h2 class="film-title">${article.header}</h2></a>
-        <a href="${article.href}"><img class="film-banner"src="${article.image}" alt="power rangers poster"/></a>
+        <a href="${article.href}"><img class="film-banner"src="${article.image}" alt="${article.header}"/></a>
         <a href="${article.href}"><p class="film-intro">${article.subheader}</p></a>
         <div class="times">
             <button class="btn-time">14:30</button>
