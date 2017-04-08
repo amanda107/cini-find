@@ -30,6 +30,7 @@ body {
     display: flex;
     justify-content: space-around;
     z-index: 99;
+
 }
 
 .nav a {
