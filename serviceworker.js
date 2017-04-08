@@ -12,7 +12,8 @@ var CACHED_URLS = [
     'assets/img/home-a.svg',
     'assets/img/location.svg',
     'assets/img/news.svg',
-    'assets/img/prom.svg'
+    'assets/img/prom.svg',
+    'assets/img/home.svg'
 ];
 
 
