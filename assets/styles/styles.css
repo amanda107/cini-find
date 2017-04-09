@@ -159,8 +159,8 @@ body {
 .next {
     right: 10px;
     bottom: 20px;
-    padding-top: 13px;
-    padding-bottom: 13px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     padding-left: 15.5px;
     padding-right: 15.5px;
     background-color: #FFB300;
@@ -172,21 +172,6 @@ body {
     -moz-box-shadow:    10px 10px 10px #333333;
     box-shadow: 0 4px 8px 0 #333333;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @keyframes clickeffect {
