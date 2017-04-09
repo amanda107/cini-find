@@ -26,13 +26,8 @@
 
     <link rel="stylesheet" href="assets/styles/styles.css">
 
-  <title>CiniFind</title>
  </head>
  <body>
-
-     
-     
-     
 
 <nav role="navigation">
      <ul class="nav">
@@ -41,86 +36,88 @@
          <li><a href="prom.html" title="promotions" alt="promotions"><img class="nav-icon"  src="assets/img/prom.svg" alt="promotions"></a></li>
          <li><a href="new.html" alt="film and tv news" title="film and tv news"><img class="nav-icon" src="assets/img/news.svg" alt="film news"></a></li>
      </ul>
-</nav>     
-
+</nav>
 <div class="option-bar">
   <button class="tablinks" onclick="tabSwitch(event, 'tab-1')" id="defaultOpen">What's on</button>
   <button class="tablinks" onclick="tabSwitch(event, 'tab-2')">Coming soon</button>
 </div> <!-- options bar -->
 
 <div id="tab-1" class="tabcontent">
-<div id="articles">
+
     <div class="film-container"><!-- power rangers -->
         <a href="power.html"><h2 class="film-title">Power Rangers</h2></a>
         <a href="power.html"><img class="film-banner"src="assets/img/power.jpg" alt="power rangers poster"/></a>
         <a href="power.html"><p class="film-intro">It's morphin time! Five teens gain incredible power ...</p></a>
         <div class="times">
-            <button class="btn btn-time">14:30</button>
-            <button class="btn btn-time">17:30</button>
-            <button class="btn btn-time">19:30</button>
+             <a href="power-seat.html" alt="Reserve tickets to power rangers at 13:30" title="Reserve tickets to power rangers at 13:30" class="btn btn-time">13:30</a>
+             <a href="power-seat.html" alt="Reserve tickets to power rangers at 17:30" title="Reserve tickets to power rangers at 17:30" class="btn btn-time">17:30</a>
+             <a href="power-seat.html" alt="Reserve tickets to power rangers at 18:30" title="Reserve tickets to power rangers at 18:30" class="btn btn-time">18:30</a>
         </div>
-    </div>
+    </div><!-- power ranger -->
+    
     <div class="film-container"><!-- beast -->
         <a href="beaut.html"><h2 class="film-title">Beauty and the Beast</h2></a>
         <a href="beaut.html"><img class="film-banner" src="assets/img/beaut.jpg" alt="beauty and the beast poster"/></a>
         <a href="beaut.html"><p class="film-intro">A story as old as time, for a new generation...</p></a>
         <div class="times">
-            <button class="btn btn-time">14:30</button>
-            <button class="btn btn-time">17:30</button>
-            <button class="btn btn-time">19:30</button>
+             <a href="beaut-seat.html" class="btn btn-time" alt="book seats for beauty and the beast at 13:30" title="book seats for beauty and the beast at 13:30">13:30</a>
+             <a href="beaut-seat.html" class="btn btn-time" alt="book seats for beauty and the beast at 17:30" title="book seats for beauty and the beast at 17:30">17:30</a>
+             <a href="beaut-seat.html" class="btn btn-time" alt="book seats for beauty and the beast at 18:30" title="book seats for beauty and the beast at 18:30">18:30</a>
         </div>
-    </div>
+    </div><!-- beast -->
+    
     <div class="film-container"><!-- smurfs -->
         <a href="smurf.html"><h2 class="film-title">Smurfs: The Lost Village</h2></a>
         <a href="smurf.html"><img class="film-banner" src="assets/img/smurf.jpg" alt="smurfs: lost village poster"/></a>
         <a href="smurf.html"><p class="film-intro">Surfette and her friends search for the secret lost village...</p></a>
         <div class="times">
-            <button class="btn btn-time">14:30</button>
-            <button class="btn btn-time">17:30</button>
-            <button class="btn btn-time">19:30</button>
+             <a href="smurf-seat.html" alt="reserve tickets to see smurfs at 13:30" title="reserve tickets to see smurfs at 17:30" class="btn btn-time">13:30</a>
+             <a href="smurf-seat.html" alt="reserve tickets to see smurfs at 17:30" title="reserve tickets to see smurfs at 17:30" class="btn btn-time">17:30</a>
+             <a href="smurf-seat.html" alt="reserve tickets to see smurfs at 18:30" title="reserve tickets to see smurfs at 18:30" class="btn btn-time">18:30</a>
         </div>
-    </div>
+    </div><!-- smurf -->
     <div class="film-container">
         <a href="kong.html"><h2 class="film-title">Kong: Skull Island</h2></a>
         <a href="kong.html"><img class="film-banner" src="assets/img/kong.jpg"></a>
         <a href="kong.html"><p class="film-intro">Meet Kong, colossal gorilla king of skull island.</p></a>
         <div class="times">
-            <button class="btn btn-time">14:30</button>
-            <button class="btn btn-time">17:30</button>
-            <button class="btn btn-time">19:30</button>
+             <a href="kong-seat.html" class="btn btn-time" alt="reserve seats for kong skull island at 13:30" title="reserve seats for kong skull island at 13:30">13:30</a>
+             <a href="kong-seat.html" class="btn btn-time" alt="reserve seats for kong skull island at 17:30" title="reserve seats for kong skull island at 17:30">17:30</a>
+             <a href="kong-seat.html" class="btn btn-time" alt="reserve seats for kong skull island at 18:30" title="reserve seats for kong skull island at 18:30">18:30</a>
         </div>
     </div>
-    </div> <!-- articles id -->
+
 
 </div><!-- whats on end -->
 
 <div id="tab-2" class="tabcontent"> <!-- coming soon -->
     
-   
+   <h1 class="offline">You are currently offline</h1>
             <div class="film-container">
                     <h2 class="film-title">Guardians of the Galaxy VOl 2</h2>
                     <img class="film-banner" src="assets/img/galaxy.jpg" alt="film poster">
-                    <p class="film-date">28/04/2017</p> 
-                    <button class="btn btn-remind">Remind me</button>
+                    <h2 class="film-intro">28/04/2017</h2> 
+                    <button class="btn-time">Remind me</button>
              
             </div>
                 <div class="film-container">
                     <h2 class="film-title">King Authur</h2>
                     <img class="film-banner" src="assets/img/authur.jpg" alt="film poster">
-                    <p class="film-date">12/05/2017</p> 
-                    <button class="btn btn-remind">Remind me</button> 
+                    <h2 class="film-intro">12/05/2017</h2> 
+                    <button class="btn-time">Remind me</button> 
                 </div>
                <div class="film-container">
                     <h2 class="film-title">Table 19</h2>
                     <img class="film-banner" src="assets/img/table.jpg" alt="film poster">
-                    <p class="film-date">12/05/2017</p> 
-                    <button class="btn btn-remind">Remind me</button> 
-                </div> 
-    
+                    <h2 class="film-intro">12/05/2017</h2> 
+                    <button class="btn-time">Remind me</button> 
+                </div>  
 
 </div><!-- coming soon close -->
+
+
  <script>
-   if ('serviceWorker' in navigator) {
+      if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('serviceworker.js').then(function(registration) {
           console.log('Service worker registered successfully');
         }).catch(function(err) {
@@ -128,7 +125,6 @@
         });
       }
 </script>
-<script type="text/javascript" src="scripts.js"></script>
 <script type="text/javascript" src="assets/script/tabs.js"></script>
 <script type="text/javascript" src="serviceworker.js"></script>
 
