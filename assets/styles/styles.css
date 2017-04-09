@@ -46,7 +46,10 @@ body {
     margin: 3px;
     width: 48px;
 }
-
+#title {
+    top: 70px;
+    text-align: center;
+}
 #active {
         border-bottom: 3px solid #FFB300;
 }
@@ -191,4 +194,3 @@ body {
     -moz-box-shadow:    10px 10px 10px #333333;
     box-shadow: 0 4px 8px 0 #333333;
 }
-
