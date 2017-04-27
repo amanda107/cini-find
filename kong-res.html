@@ -74,24 +74,6 @@
     <a  class="next" href="con.html">&#10147;</a>
 </footer> 
     
-<script type="text/javascript">
-    
-    function save()     {
-        var fieldValue = document.getElementById('textfield').value;
-        localStorage.setItem('text', fieldValue);  
-    }
-    
-    function load()     {
-        var storedValue = localStorage.getItem('text');
-        if(storedValue) {
-            document.getElementById('textfield').value = storedValue;
-        }
-        
-    }
-    function die() {
-        document.getElementById('textfield').value = '';
-        localStorage.removeItem('text');
-    }
-</script>
+<script type="text/javascript" src="assets/script/tabs.js"></script>
     </body>
 </html>    

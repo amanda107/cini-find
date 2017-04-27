@@ -58,10 +58,10 @@
    
 <form class="form-container-btn">    
     <div class="form-el-btn">
-        <input class="btn" type="button" value="save" onclick="save()"/>
+        <input class="btn btn-remind" type="button" value="save" onclick="save()"/>
     </div>
     <div class="form-ll-btn">
-        <input class="btn" type="button" value="remove" onclick="die()"/> 
+        <input class="btn btn-remind" type="button" value="remove" onclick="die()"/> 
     </div>    
 </form>
     
@@ -71,26 +71,8 @@
 <footer>
     <a  class="next" href="con.html">&#10147;</a>
 </footer> 
-    
-<script type="text/javascript">
-    
-    function save()     {
-        var fieldValue = document.getElementById('textfield').value;
-        localStorage.setItem('text', fieldValue);  
-    }
-    
-    function load()     {
-        var storedValue = localStorage.getItem('text');
-        if(storedValue) {
-            document.getElementById('textfield').value = storedValue;
-        }
-        
-    }
-    function die() {
-        document.getElementById('textfield').value = '';
-        localStorage.removeItem('text');
-    }
-</script>
+
+<script type="text/javascript" src="assets/script/tabs.js"></script>
     </body>
 </html>    
    

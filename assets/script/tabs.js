@@ -37,4 +37,23 @@ for (var i = 0; i < button.length; i++) {
   }
 }
 
+// local storage
+
+    function save()     {
+        var fieldValue = document.getElementById('textfield').value;
+        localStorage.setItem('text', fieldValue);  
+    }
+    
+    function load()     {
+        var storedValue = localStorage.getItem('text');
+        if(storedValue) {
+            document.getElementById('textfield').value = storedValue;
+        }
+        
+    }
+    function die() {
+        document.getElementById('textfield').value = '';
+        localStorage.removeItem('text');
+    }
+
 
