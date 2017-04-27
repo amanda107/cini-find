@@ -29,7 +29,10 @@
 
   <title>CiniFind</title>
  </head>
- <body>
+<body onload="load()">
+
+    
+   
 <nav role="navigation">
      <ul class="nav">
          <li><a href="wo-cs.html" alt="whats on / coming soon" title="whats on / coming soon"><img      class="nav-icon" src="assets/img/home.svg" alt="whats on and coming soon"></a></li>
@@ -38,54 +41,58 @@
          <li><a href="new.html" alt="film and tv news" title="film and tv news"><img class="nav-icon" src="assets/img/news.svg" alt="film news"></a></li>
      </ul>
 </nav>
-
-     
-     
-     
+    
 <main role="main">
-
 <header class="banner-container" role="banner">
     <img class="poster" src="assets/img/power.jpg" alt="film poster">
 </header>
     
 <div id="container"> 
+    <h1 id="title">Reserve your tickets</h1>   
     
-    <h1 id="title">Reserve your tickets</h1> 
-    
-
-    
-    
-  <form class="form-container">
+<form class="form-container">    
     <div class="form-el">  
         <img class="form-icon" src="assets/img/name.svg">
     </div>
     <div class="form-ll">  
-        <input type="text" name="f-name" placeholder="Name">
-    </div> 
-   
-  </form>    
-  <form class="form-container">
-    <div class="form-el">  
-        <img class="form-icon" src="assets/img/email.svg">
+        <input type="text" alt="name" placeholder="name" id="textfield"/>
     </div>
-    <div class="form-ll">  
-        <input type="email" name="f-name" placeholder="email">
-    </div> 
-  </form>
-  <form class="form-container">
-    <div class="form-el">  
-        <img class="form-icon" src="assets/img/phone.svg">
-    </div>
-    <div class="form-ll">  
-        <input type="number" name="f-name" placeholder="phone number">
-    </div> 
+</form>
    
-  </form>    
-</div>     
+<form class="form-container-btn">    
+    <div class="form-el-btn">
+        <input class="btn" type="button" value="save" onclick="save()"/>
+    </div>
+    <div class="form-ll-btn">
+        <input class="btn" type="button" value="remove" onclick="die()"/> 
+    </div>    
+</form>
+    
+</div> 
 </main>
+    
 <footer>
-    <a  class="next" href="power-con.html">&#10147;</a>
-</footer>    
-
-</body>
+    <a  class="next" href="con.html">&#10147;</a>
+</footer> 
+    
+<script type="text/javascript">
+    
+    function save()     {
+        var fieldValue = document.getElementById('textfield').value;
+        localStorage.setItem('text', fieldValue);  
+    }
+    
+    function load()     {
+        var storedValue = localStorage.getItem('text');
+        if(storedValue) {
+            document.getElementById('textfield').value = storedValue;
+        }
+        
+    }
+    function die() {
+        document.getElementById('textfield').value = '';
+        localStorage.removeItem('text');
+    }
+</script>
+    </body>
 </html>    

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
- <head>
-       <title>CiniFind</title>
+<head>
+   <title>CiniFind</title>
 <meta charset=utf-8>
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/icon/apple-icon-57x57.png">
@@ -19,19 +19,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/icon/favicon-16x16.png">
     <link rel="manifest" href="assets/icon/manifest.json">
 
-<meta name="msapplication-TileColor" content="#00897B">
-<meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png">
-<meta name="theme-color" content="#00897B">
-
-
+    <meta name="msapplication-TileColor" content="#00897B">
+    <meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#00897B">
+<!-- styles sheets-->
     <link href="assets/styles/styles.css" rel="stylesheet" type="text/css">
     <link href="assets/styles/res.css" rel="stylesheet" type="text/css">
+</head>
+<body>
 
- </head>
-<body onload="load()">
-
-    
-   
 <nav role="navigation">
      <ul class="nav">
          <li><a href="wo-cs.html" alt="whats on / coming soon" title="whats on / coming soon"><img      class="nav-icon" src="assets/img/home.svg" alt="whats on and coming soon"></a></li>
@@ -42,56 +38,16 @@
 </nav>
     
 <main role="main">
-<header class="banner-container" role="banner">
-    <img class="poster" src="assets/img/kong.jpg" alt="film poster">
-</header>
+
+
     
 <div id="container"> 
-    <h1 id="title">Reserve your tickets</h1>   
-    
-<form class="form-container">    
-    <div class="form-el">  
-        <img class="form-icon" src="assets/img/name.svg">
-    </div>
-    <div class="form-ll">  
-        <input type="text" alt="name" placeholder="name" id="textfield"/>
-    </div>
-</form>
-   
-<form class="form-container-btn">    
-    <div class="form-el-btn">
-        <input class="btn" type="button" value="save" onclick="save()"/>
-    </div>
-    <div class="form-ll-btn">
-        <input class="btn" type="button" value="remove" onclick="die()"/> 
-    </div>    
-</form>
-    
-</div> 
-</main>
-    
-<footer>
-    <a  class="next" href="con.html">&#10147;</a>
-</footer> 
-    
-<script type="text/javascript">
-    
-    function save()     {
-        var fieldValue = document.getElementById('textfield').value;
-        localStorage.setItem('text', fieldValue);  
-    }
-    
-    function load()     {
-        var storedValue = localStorage.getItem('text');
-        if(storedValue) {
-            document.getElementById('textfield').value = storedValue;
-        }
-        
-    }
-    function die() {
-        document.getElementById('textfield').value = '';
-        localStorage.removeItem('text');
-    }
-</script>
-    </body>
-</html>    
+    <h1 id="title">Your Seats have been reserved</h1> 
+    <img id="conf-img" src="assets/img/conf.svg" alt="confitmation icon">
+    <p id="conf-text">Your seats have been reserved in you name. If there are any changes we will contact you via email or by phoning you</p>
+</div>
+
+</main>    
+
+</body>
+</html>

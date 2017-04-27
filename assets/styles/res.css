@@ -36,6 +36,23 @@
     width: 40px;
     flex: 1;
 }
+.form-container-btn {
+    max-width: 1400px;
+    margin: 10px;
+    display: flex;
+    top: 70px;
+    height: 40px;
+}
+.form-el-btn {
+    flex: 1;
+    order: 1;
+ 
+}
+.form-ll-btn {
+    flex: 1;
+    order: 2;
+}
+
 input {
     height: 40px;
     background-color: #404040;
