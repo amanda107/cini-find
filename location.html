@@ -40,10 +40,46 @@
 <main role="main"> 
     <h1 id="title">Find a Cinema</h1>
     
-    <div class="location">
+<div class="location">
+    
+<div id="map-container" style="height: 350px;"></div>
+<script>
+    function initMap() {
+        var myLocation = {lat: 53.0103798, lng: -2.1801833};
+        var map = new google.maps.Map(document.getElementById('map-container'), {
+            zoom: 14,
+            center: myLocation
+        });
+        var marker = new google.maps.Marker({
+            position: myLocation,
+            map: map
+        });
+}
+</script>
+<script async defer
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwBe4NDGlqL_rhL8MYMhv6PeLjEoU9ufs&callback=initMap">
+</script>
     
     
-    </div>
+<div id="cinema-list">
+    <h2 id="choose">Choose a Cinema!</h2>
+     <a href="wo-cs.html"><div class="film-container">
+        <h2 class="film-title">Cineworld - Stoke-on-Trent</h2>
+        <p class="film-intro">Address: Quadrant Rd, Stoke-on-Trent ST1 1PS</p>
+         </div> </a>
+    <a href="wo-cs.html"><div class="film-container">
+        <h2 class="film-title">ODEON - Stoke-on-Trent</h2>
+        <p class="film-intro">Address: Etruria Rd, Stoke-on-Trent ST1 5SN</p>
+        </div> </a>
+    
+    <a href="wo-cs.html"><div class="film-container">
+        <h2 class="film-title">Film Theatre - Stoke-on-Trent</h2>
+        <p class="film-intro">Address: College Road, Stoke-On-Trent, Staffordshire ST4 2EF</p>
+        </div> </a>
+ 
+</div>
+</div> 
+    
 </main>     
     
     

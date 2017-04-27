@@ -107,7 +107,7 @@ body {
 
 .film-container {
     width: 100%;
-    background-color: #4c4c4c;
+    background-color: #515151;
     border-radius: 5px;
     padding-bottom: 10px;
     margin-bottom: 10px;
@@ -129,13 +129,17 @@ body {
 }
 .film-intro {
     text-align: center;
+    margin-top: 3px;
 }
 .film-date {
     margin-right: 15px;
     margin-top: 20px;
     float: right;
 }
-
+#choose {
+    text-align: center;
+    margin-bottom: 10px;
+}
 .times {
     text-align: center;
 }
@@ -173,7 +177,17 @@ body {
     box-shadow: 0 4px 8px 0 #333333;
 }
 
-
+.location {
+    top: 70px;
+    margin: 10px;
+}
+#cinema-list {
+    margin-top: 20px;
+}
+.cini-list {
+    padding: 3px;
+    text-align: center;
+}
 @keyframes clickeffect {
   from {
     opacity: 0.7;
