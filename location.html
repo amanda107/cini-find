@@ -43,19 +43,7 @@
 <div class="location">
     
 <div id="map-container" style="height: 350px;"></div>
-<script>
-    function initMap() {
-        var myLocation = {lat: 53.0103798, lng: -2.1801833};
-        var map = new google.maps.Map(document.getElementById('map-container'), {
-            zoom: 14,
-            center: myLocation
-        });
-        var marker = new google.maps.Marker({
-            position: myLocation,
-            map: map
-        });
-}
-</script>
+
 <script async defer
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCwBe4NDGlqL_rhL8MYMhv6PeLjEoU9ufs&callback=initMap">
 </script>
@@ -83,8 +71,7 @@
 </main>     
     
     
-    
- 
 
- </body> 
+</body>
+    <script type="text/javascript" src="assets/script/tabs.js"></script>
 </html>
