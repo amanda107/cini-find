@@ -170,7 +170,7 @@ body {
     width: 56px;
     height: 56px;
     text-align: center;
-    padding: 11px 0;
+    padding: 10px 0;
     font-size: 25px;
     line-height: 1.5;
     border-radius: 100%;
@@ -256,4 +256,25 @@ body {
 
 .film-date {
     right: 10px;
+}
+
+.call-outs-container {
+    max-width: 1400px;
+    margin: 40px auto 0 auto; 
+    display: flex;
+    flex-wrap: wrap;
+}
+.film-container {
+    margin: 10px;
+    flex-direction: column;
+    flex-basis: 48%;
+}
+@media (max-width: 900px) {
+  .call-outs-container {
+    display: flex;
+    justify-content: space-between;
+    }
+  .film-container {
+    flex-basis: 100%;    
+    }
 }
