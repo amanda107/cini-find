@@ -175,14 +175,16 @@ body {
     line-height: 1.5;
     border-radius: 100%;
     background-color: #FFA000;
-
-  /*
-    -webkit-box-shadow: 10px 10px 10px #333333;
-    -moz-box-shadow:    10px 10px 10px #333333;
-    box-shadow: 0 4px 8px 0 #333333;
-   */    
+    -webkit-box-shadow: 5px 5px 5px #333333;
+    -moz-box-shadow:    5px 5px 5px #333333;
+    box-shadow: 0 2px 4px 0 #333333;
 }
-
+.next:hover {
+    background-color: #EF6C00;
+}
+.next:active {
+      background-color: #EF6C00;
+}
 .location {
     top: 70px;
     margin: 10px;
