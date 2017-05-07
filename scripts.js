@@ -30,7 +30,7 @@ fetch("articles.json")
     </div>`;
             
         }).join("\n");
-        const articlesContainer = document.getElementById('articles');
+        const articlesContainer = document.getElementById('film-now');
         articlesContainer.innerHTML = articlesHTML;
     });
 
