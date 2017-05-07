@@ -23,10 +23,10 @@ fetch("articles.json")
         <a href="${article.href}"><img class="film-banner"src="${article.image}" alt="${article.header}"/></a>
         <a href="${article.href}"><p class="film-intro">${article.subheader}</p></a>
         <div class="times">
-            <button class="btn-time">14:30</button>
-            <button class="btn-time">17:30</button>
-            <button class="btn-time">19:30</button>
-        </div>
+                 <a href="power-seat.html" alt="Reserve tickets to power rangers at 13:30" title="Reserve tickets to power rangers at 13:30" class="btn btn-time">13:30</a>
+                 <a href="power-seat.html" alt="Reserve tickets to power rangers at 17:30" title="Reserve tickets to power rangers at 17:30" class="btn btn-time">17:30</a>
+                 <a href="power-seat.html" alt="Reserve tickets to power rangers at 18:30" title="Reserve tickets to power rangers at 18:30" class="btn btn-time">18:30</a>
+            </div>
     </div>`;
             
         }).join("\n");
