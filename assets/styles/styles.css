@@ -279,4 +279,7 @@ body {
   .film-container {
     flex-basis: 100%;    
     }
+    .tabcontent {
+        margin: 0px;
+    }
 }
